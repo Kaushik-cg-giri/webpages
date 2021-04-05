@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="FormCSS.css">
+</head>
+
+<body>
+    <form action="Signup">
+        <label style=color:red position: "relative" left> Username</label>
+        <input type="text" name="us" size="15" maxlength="8" placeholder="enter valid username"><br>
+        <label for="">
+              Password</label> <input type="passsword" name="ps" size="15" maxlength="8" placeholder="enter valid passsword"><br>
+        <label for="">Email id</label>
+        <input type="email" name="em" size="15" maxlength="8" placeholder="enter valid email id"><br>
+        <label for="">Choose image</label>
+        <input type="file" name="img"><br>
+        <label for="">Date of Birth</label>
+        <input type="date" name="dt"><br>
+        <label for="">Select your subject</label>
+        <input type="checkbox" name="py">Python
+        <input type="checkbox" name="java">java
+        <input type="checkbox" name="sql">Sql <br>
+        <label for=""> Select your gender</label>
+        <input type="radio" name="ml">male
+        <input type="radio" name="ml">female <br>
+
+
+        <textarea name="Comment" id="" cols="40" rows="10" placeholder="write your comments"></textarea> <br>
+        <label for=""> Select your state</label>
+        <select name="states">
+            <optgroup label="choose any one">
+                <option value="1">Karnataka</option>
+                <option value="2">Kerala</option>
+                <option value="3">Telegana</option>
+                <option value="4">Tamilnadu</option>
+             </optgroup>
+        </select><br>
+
+        <input type="button" value="signup">
+
+
+
+    </form>
+
+</body>
+
+</html>
