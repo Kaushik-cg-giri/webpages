@@ -1,0 +1,61 @@
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 80px;
+        font-size: 20px;
+    }
+    
+    .pexels {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: tomato;
+    }
+    
+    nav {
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+    }
+    /*banner starts*/
+    
+    .banner {
+        /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), url(https://cdn.pixabay.com/photo/2018/09/23/18/30/drop-3698073__340.jpg);*/
+        background-image: url(https://cdn.pixabay.com/photo/2018/07/09/16/59/clouds-3526558_1280.jpg);
+        height: 400px;
+        background-size: 100% 100%;
+        margin-top: -24px;
+    }
+    
+    .h-pos {
+        position: relative;
+        top: 190px;
+        left: 26%;
+        font-family: algerian;
+        color: yellowgreen;
+    }
+    /* banner ends */
+    /*gallery starts */
+    
+    .gallery {
+        border: 20px solid purple;
+        margin: 5px;
+    }
+    
+    img {
+        height: 320px;
+        width: 360px;
+    }
+    
+    img:hover {
+        opacity: .5;
+        transform: scale(1, 2);
+    }
